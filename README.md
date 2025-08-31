@@ -19,6 +19,23 @@ This work was conducted as part of my **MSc in Applied Cyber Security** at **Tec
 
 ---
 
+## 🚀 Deployment
+
+Spin up the virtual machines with Vagrant:
+
+```bash
+cd deploy
+vagrant up
+```
+
+Configure the Snort host using Ansible:
+
+```bash
+ansible-playbook deploy/snort.yml
+```
+
+---
+
 ## ⚙️ Lab Setup
 
 **Detection Machine (Snort IDS/IPS):**
